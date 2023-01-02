@@ -3,17 +3,81 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Classes e IDs</title>
+		<title>Div e Span</title>
 
 		<style type="text/css">
+        
+            #topo {
+                background: blue;
+            }
 			
+            #conteudo {
+                background: red;
+            }
 			
+            .produto{
+                background: gray;
+                margin: 10px;
+            }
+
+            #rodapé {
+                background: green;
+            }
+
+            #assinatura {
+                background: pink;
+            }
+
+            .assinatura {
+                background: pink;
+            }
 		</style>
 
 	</head>
 	<body>
 
+            <div id="topo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/603px-Amazon_logo.svg.png" width="200">
+                <ul>
+                    <li>Home</li>
+                    <li>Produtos</li>
+                    <li>Contatos</li>
+                </ul>
+            </div>
 
+            <div id="conteudo">
+
+                <div class="produto">
+                    Produto 1
+                </div>
+
+                <div class="produto">
+                    Produto 2
+                </div>
+
+                <div class="produto">
+                    Produto 3
+                </div>
+            </div>
+
+            <div id="rodapé" align="center">
+                Todos os direitos reservados
+            </div>
+
+            <span id="assinatura">
+                Danielle
+            </span>
+
+            <span>
+                Soares
+            </span>
+
+            <div id="assinatura">
+                Leite
+            </div>
         
+            <div id="rodapé">
+               Danielle <span class="assinatura">Leite</span>Alfredo
+            </div>
 	</body>
 </html>
