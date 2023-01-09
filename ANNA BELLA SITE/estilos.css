@@ -1,31 +1,40 @@
-.fundo { 
-    background-image: url('fotos/fundo.png') ;
+body { 
+    background: #d2d2c1 url('fotos/fundo.png') ;
+    font: 16px Arial, Helvetica, sans-serif;
 }
 
-.background {
-    background-color: rgb(241, 237, 231);
+#principal {
+   width: 900px;
 }
 
-.fonte {
-    font-family: Georgia, 'Times New Roman', Times, serif; 
-    color: rgba(66, 68, 30, 0.399);
+#menu {
+    background: #c5c5b2 ;
+    padding: 18px; /*espaçamento interno*/
 }
 
-.cor {
-    background-color:rgba(149, 147, 132, 0.875) ;
+a {
+   color: #4b566a;
+   text-decoration: none;
+   font-weight: bold;
+   padding: 5px;
 }
 
-.negrito{
+h2 {
+    color: #828271;
+    font-size: 1.2 em;
+}
+
+#texto {
+    background: #e8e8e9 ;
+    padding: 10px;
+}
+
+#negrito{
     /*normal; bold; 100 até 900*/
     font-weight: 900;
+    text-align: center;
 }
 
 .borda {
-    border-color:gray;
-    border-width: 10px;
-    border-style: solid;
-}
-
-.fontcolor {
-    color:brown;
+    border: 10px solid#c2c2ae;
 }
