@@ -3,10 +3,29 @@
 }
 
 .background {
-    background-color: blanchedalmond;
+    background-color: rgb(241, 237, 231);
 }
 
 .fonte {
     font-family: Georgia, 'Times New Roman', Times, serif; 
-    font-color: rgba(66, 68, 30, 0.399);
+    color: rgba(66, 68, 30, 0.399);
+}
+
+.cor {
+    background-color:rgba(149, 147, 132, 0.875) ;
+}
+
+.negrito{
+    /*normal; bold; 100 até 900*/
+    font-weight: 900;
+}
+
+.borda {
+    border-color:gray;
+    border-width: 10px;
+    border-style: solid;
+}
+
+.fontcolor {
+    color:brown;
 }
