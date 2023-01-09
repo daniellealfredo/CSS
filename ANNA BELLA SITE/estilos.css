@@ -1,0 +1,12 @@
+.fundo { 
+    background-image: url('fotos/fundo.png') ;
+}
+
+.background {
+    background-color: blanchedalmond;
+}
+
+.fonte {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-color: rgba(66, 68, 30, 0.399);
+}
